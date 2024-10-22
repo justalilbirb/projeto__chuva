@@ -1,26 +1,31 @@
 let gotasCriadas = [];
 let numeroGotas = 500;
-/*let camadaBlur; 
+/*let camadaBlur;  // comentado para teste
 let numeroBlur  = 5;
 let janelaRaio = 100;
 let janelaLimpa = [];*/
 
+//cria canva
 function setup() {
     let larguraCanva = windowWidth;
     let alturaCanva = windowHeight;
     createCanvas(larguraCanva, alturaCanva);
-    /*camadaBlur = createGraphics(width, height);
-    camadaBlur.noStroke();*/
     desenharGota();
+
+    /*camadaBlur = createGraphics(width, height); // comentado para teste
+    camadaBlur.noStroke();*/
 }
+
+//desenhos 
 function draw() {
     background(126, 166, 230);
     desenhoChuva();
+
+
   /*  limparJanela();
-    aplicarDesfoque(); */
-    
-    
+    aplicarDesfoque(); */ // comentado para teste
 }
+
 //array gota
 function desenharGota() {
     for (let i = 0; i < numeroGotas; i++) {
@@ -35,6 +40,7 @@ function desenharGota() {
     }
 }
 
+//desenha a chuva usando as gotas
 function desenhoChuva() {
     for (let i = 0; i < gotasCriadas.length; i++) {
         const gotaItem = gotasCriadas[i];
@@ -50,10 +56,11 @@ function desenhoChuva() {
         }
     }
 }
-/*
 
-// Função para aplicar o efeito de desfoque e limpar ao redor do mouse
-function aplicarDesfoque() {
+//abaixo seriam as funcoes para efeito de janela embacada, porem ainda em desenvolvimento
+
+ // comentado para teste
+ /* function aplicarDesfoque() {
     // Limpa a camada de desfoque
     camadaBlur.clear();
     
@@ -98,4 +105,4 @@ function aplicarDesfoque() {
     }
 
     camadaBlur.filter(BLUR, numeroBlur);
-  }*/
+  }*/ // comentado para teste
