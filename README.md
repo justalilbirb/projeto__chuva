@@ -7,7 +7,7 @@ Foram utilizadas as tecnologias: HTML5, JavaScript e P5.js.
 Como Usar
 
   Baixar/Clonar o Projeto:
-   = Clone o repositório ou faça o download dos arquivos do projeto.
+   - Clone o repositório ou faça o download dos arquivos do projeto.
 
   Abra o Arquivo HTML:
    - Abra o arquivo index.html em um navegador compatível com JavaScript.
@@ -16,9 +16,9 @@ Como Usar
    - As gotas de chuva começarão a cair automaticamente.
 
 Próximos Passos:
-  Adicionar efeito de janela embaçada com interatividade do usuário (em implementação).
-  Adicionar som de chuva para aumentar a imersão.
-  Permitir o ajuste da densidade da chuva através de controles na interface.
+  - Adicionar efeito de janela embaçada com interatividade do usuário (em implementação).
+  - Adicionar som de chuva para aumentar a imersão.
+  - Permitir o ajuste da densidade da chuva através de controles na interface.
 
 
 
